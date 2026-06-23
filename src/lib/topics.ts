@@ -105,7 +105,7 @@ export function buildGraphLinks(): GraphLink[] {
 export function buildTreeData(): TreeNode {
   const rootNode: TreeNode = {
     id: 'root',
-    name: 'MATHgraph',
+    name: 'Math Graph',
     domain: 'Root',
     difficulty: 'beginner',
     collapsed: false,

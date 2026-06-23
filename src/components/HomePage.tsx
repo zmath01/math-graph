@@ -12,7 +12,7 @@ export function HomePage() {
           <span>Interactive Knowledge Tree</span>
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 tracking-tight">
-          MATHgraph
+          Math Graph
         </h1>
         <p className="text-lg md:text-xl text-slate-600 max-w-2xl mx-auto">
           Explore a multi-disciplinary knowledge tree spanning linear algebra, probability,

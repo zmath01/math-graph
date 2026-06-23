@@ -1,5 +1,5 @@
 /**
- * Topic data model for the MATHgraph knowledge tree.
+ * Topic data model for the Math Graph knowledge tree.
  * All fields use English text to support the international UI.
  */
 export interface Topic {

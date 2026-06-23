@@ -33,7 +33,7 @@ export function ForceGraphView() {
 
     const graphData = { nodes: buildGraphNodes(), links: buildGraphLinks() };
     // eslint-disable-next-line no-console
-    console.log('[MATHgraph] force graph data:', graphData.nodes.length, 'nodes,', graphData.links.length, 'links');
+    console.log('[Math Graph] force graph data:', graphData.nodes.length, 'nodes,', graphData.links.length, 'links');
 
     const graph = new ForceGraph2D(container)
       .width(container.clientWidth || 1)
@@ -88,7 +88,7 @@ export function ForceGraphView() {
       const w = containerRef.current.clientWidth;
       const h = containerRef.current.clientHeight;
       // eslint-disable-next-line no-console
-      console.log('[MATHgraph] force graph container size:', w, 'x', h);
+      console.log('[Math Graph] force graph container size:', w, 'x', h);
       if (w > 0 && h > 0) {
         graphRef.current.width(w).height(h);
       }

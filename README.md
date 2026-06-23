@@ -1,4 +1,4 @@
-# MATHgraph
+# Math Graph
 
 An interactive multi-disciplinary knowledge tree covering linear algebra, probability & statistics, differential equations, mathematical physics methods (PDEs and complex analysis), scientific computing, machine learning, deep learning, Transformers, optimization, algorithm optimization, and HPC.
 
