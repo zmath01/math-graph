@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
  * declarations describe a class constructor. We cast it to a callable factory so
  * we can use the standard `ForceGraph2D(element)` API.
  */
-type ForceGraphFactory = (element: HTMLElement) => ForceGraphType;
+type ForceGraphFactory = new (element: HTMLElement) => ForceGraphType;
 const ForceGraph2D = ForceGraph2DModule as unknown as ForceGraphFactory;
 
 /**
@@ -35,7 +35,7 @@ export function ForceGraphView() {
     // eslint-disable-next-line no-console
     console.log('[MATHgraph] force graph data:', graphData.nodes.length, 'nodes,', graphData.links.length, 'links');
 
-    const graph = ForceGraph2D(container)
+    const graph = new ForceGraph2D(container)
       .width(container.clientWidth || 1)
       .height(container.clientHeight || 1)
       .graphData(graphData)
